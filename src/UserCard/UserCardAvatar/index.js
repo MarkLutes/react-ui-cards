@@ -11,7 +11,7 @@ class UserCardAvatar extends React.Component {
     return (
       <div
 	      className={styles['user-card-avatar']}
-	      style={{backgroundImage: `url(${src})`}}
+	      style={{backgroundImage: `url(${src})`, backgroundSize:96}}
 	    />
     );
   }
