@@ -1,4 +1,5 @@
 a.card-link {
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
   text-decoration: none;
 }

@@ -7,11 +7,11 @@ class UserCardAvatar extends React.Component {
     let {
       src
     } = this.props;
-    
+
     return (
       <div
 	      className={styles['user-card-avatar']}
-	      style={{backgroundImage: `url(${src})`, backgroundSize:96}}
+	      style={{backgroundImage: `url(${src})`, backgroundSize:50}}
 	    />
     );
   }
